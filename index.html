@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <title>Awesome Boilerplate</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="design/index.css">
@@ -12,17 +13,25 @@
 		<div>
 			<h1><span>Awesome</span> Boilerplate</h1>
 			<p>
-				<label>Jump To Content</label><br>
-				<label>Jump To Footer</label><br>
-				<label>Jump To Kitties</label>
+				<label><a href="#content">Jump To Content</a></label><br>
+				<label><a href="#footer">Jump To Footer</a></label><br>
+				<label><a href="http://www.nyan.cat/">Jump To Kitties</a></label>
 			</p>
 		</div>
 	</header>
-	<main>
+	<main id="content">
 		<section>
 			<article>
-			<!--ToDo Input Fields-->	
-			Input fields belongs here :)
+			Name: <input type="text"><br>
+			Vorname: <input type="text"><br>
+			Email: <input type="email"><br>
+			Telefon: <input type="tel"><br>
+			Geburtsdatum: <input type="date"><br>
+			<select name="Studiengang" size="1">
+			<option value="UIB">UIB</option>
+			<option value="IB">IB</option>
+			<option value="IMB">IMB</option>
+			</select>
 
 			</article>
 
@@ -55,6 +64,7 @@
 				<h3>Help Others</h3>
 				<p>
 					Das wichtigste hierbei ist allerdings auch anderen zu helfen und sie zu unterstützen.
+				</p>
 			</article>
 			<article>
 				<figure>
@@ -63,14 +73,14 @@
 				<h3>Follow Us</h3>
 				<p>
 					Falls du fragen hast, kannst du dich jederzeit an 
-					<a href="https://git.com/CodeKittey">@Codekittey</a>, wenden oder eine
+					<a href="https://github.com/CodeKittey">@Codekittey</a>, wenden oder eine
 					Email schreiben: m.kraus@hs-mannheim.de
 				</p>
 			</article>
 		</section>
 	</main>
-	<footer>
-		<img src="img/nodschool.svg"></a>
+	<footer id="footer">
+		<img src="img/nodeschool.svg">
 	</footer>
 	<script src="design/index.js"></script>
 </body>
